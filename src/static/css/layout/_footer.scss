@@ -1,0 +1,18 @@
+#footer {
+  .icons {
+    color: _palette(fg-light);
+  }
+
+  .update-status {
+    color: _palette(fg-bold);
+    font-family: _font(family-heading);
+    font-size: 0.65em;
+    font-weight: _font(weight-heading);
+    letter-spacing: _font(kerning-heading);
+    text-transform: uppercase;
+  }
+
+  body.single & {
+    text-align: center;
+  }
+}

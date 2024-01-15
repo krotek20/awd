@@ -1,0 +1,62 @@
+#course-details {
+  header {
+    @include vendor('display', 'flex');
+    @include vendor('flex-direction', 'column');
+    background: _palette(bg);
+    margin: 0 0 _size(element-margin);
+
+    @include padding(1.25em, 3em);
+    min-height: 4em;
+
+    h4 {
+      text-decoration: none;
+      border-bottom: none;
+      display: inline-flex;
+    }
+  }
+
+  .course-section {
+    .title {
+      text-align: center;
+      margin-top: 1em;
+      margin-bottom: 2em;
+    }
+
+    p {
+      font-size: 0.9em;
+      margin: 0;
+    }
+
+    .section-container {
+      margin-bottom: 1.75em;
+    }
+
+    .faq-span {
+      margin-right: 1em;
+    }
+
+    ul,
+    ol {
+      margin: 0;
+    }
+
+    li {
+      margin: 0;
+      padding: 0;
+      font-size: 0.9em;
+    }
+
+    span {
+      font-weight: _font(weight-bold);
+    }
+
+    .lecture-link {
+      line-height: 35px;
+    }
+
+    .icon {
+      margin-left: 1em;
+      cursor: pointer;
+    }
+  }
+}
